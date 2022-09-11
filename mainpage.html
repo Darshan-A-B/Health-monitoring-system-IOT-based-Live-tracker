@@ -21,6 +21,7 @@
   <body>
     <h1 style="text-align:center;margin-top: 50px; border: 15px solid black;margin: 20px;background-color: lightgrey ;">Health Monitoring System</h1>
     <!-- <h1 style="text-align:center;margin-bottom:50px">Database</h1> -->
+
     <div>
       <label style="margin-left: 40%;" for="pid">PID</label>
       <select name="pid" id="pid_menu">
@@ -30,7 +31,9 @@
     </div>
 
 
-    <table id="mt" style="margin-left: 500px;">
+<div class="block">
+
+    <table id="mt" style="margin-left: 35px;">
       <thead>
         <th style="size: 50px; text-align:center;">Patient ID</th>
         <th>Date</th>
@@ -42,7 +45,22 @@
       <tbody id="tbody" style="text-align:center; border: 1px solid black;   border-collapse: collapse;
         width: 200%;"></tbody>
     </table>
-
+</div>
+<div class="block">
+  <h3>Learn about the SpO2</h3>
+  <p>People with healthy lungs should have an oxygen level of 80-100 mm Hg,<br> or 95-100% when measured with a pulse oximeter. For people with lung <br>diseases, a doctor should determine the optimal levels.</p>
+  <a href="default.asp" target="https://www.healthline.com/health/normal-blood-oxygen-level">Read more</a>
+</div>
+<div class="block">
+  <h3>Heart rate and temperature</h3>
+  <p>Body temperature is an independent determinant of heart rate, causing an <br>increase of approximately 10 beats per minute per degree centigrade. <br>Body temperature is also an independent determinant of respiratory rate. </p>
+  <a href="default.asp" target="https://pubmed.ncbi.nlm.nih.gov/19700579/#:~:text=Conclusion%3A%20Body%20temperature%20is%20an,independent%20determinant%20of%20respiratory%20rate.">Read more</a>
+</div>
+<div class="block">
+  <h3>Learn about the SpO2</h3>
+  <p>People with healthy lungs should have an oxygen level of 80-100 mm Hg,<br> or 95-100% when measured with a pulse oximeter. For people with lung <br>diseases, a doctor should determine the optimal levels.</p>
+  <a href="default.asp" target="https://www.healthline.com/health/normal-blood-oxygen-level">Read more</a>
+</div>
 
     <!--Firebase Libraries-->
     <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
